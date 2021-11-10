@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2d579f6-1231-4fbb-a6b5-ad2bc3915dd0">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2d579f6-1231-4fbb-a6b5-ad2bc3915dd0">
   <producedTypes>
     <objectType typeId="72ff87b4-0e46-4e17-ac51-0d8e64311cbe" valueTypeId="2449d048-d7a0-42f1-96cd-7294901caa95"/>
     <refType typeId="594de300-dc0b-49a6-b434-57f9b567a3ea" valueTypeId="5ff78149-61cf-42ed-abe5-df517794d8fe"/>
@@ -25,4 +25,22 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4f05fb0f-9d04-4076-9447-9e32dff4741a">
+    <name>Площадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
