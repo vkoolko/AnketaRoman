@@ -44,4 +44,5 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <documents>Document.рубэгАнкета</documents>
 </mdclass:Configuration>
